@@ -76,11 +76,12 @@ THIRD_PARTY_APPS = [
     "rest_framework.authtoken",
     "corsheaders",
     "drf_spectacular",
+    "drf_yasg",
 ]
 
 LOCAL_APPS = [
     "vector_test.users",
-    # Your stuff: custom apps go here
+    "vector_test.wikipedia",
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
